@@ -1,0 +1,115 @@
+# Imports and Config
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
+import joblib
+
+# === CONFIG ===
+lambda_ = 0.005
+use_class_weights = True
+cv_folds = 10
+movement_up_threshold = 2.0
+movement_down_threshold = -2.0
+
+# === Load Data ===
+df = pd.read_csv("EDITED NEWS.csv")
+df.columns = df.columns.str.strip()
+df.rename(columns={"Movement": "% Movement"}, inplace=True)
+df["% Movement"] = pd.to_numeric(df["% Movement"], errors='coerce')
+df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+df["DaysSinceEvent"] = (pd.Timestamp.today() - df["Date"]).dt.days
+df["DecayWeight"] = np.exp(-lambda_ * df["DaysSinceEvent"])
+
+def classify_movement(x):
+    if x > movement_up_threshold:
+        return "Up"
+    elif x < movement_down_threshold:
+        return "Down"
+    else:
+        return "Neutral"
+
+df["Movement Class"] = df["% Movement"].apply(classify_movement)
+df.dropna(subset=["Sector", "Event Type", "Movement Class"], inplace=True)
+
+print("Label Distribution:")
+print(df["Movement Class"].value_counts())
+
+X = df[["Sector", "Event Type", "DaysSinceEvent"]]
+y = df["Movement Class"]
+
+label_encoder = LabelEncoder()
+y_encoded = label_encoder.fit_transform(y)
+
+preprocessor = ColumnTransformer(transformers=[
+    ('cat', OneHotEncoder(handle_unknown='ignore'), ["Sector", "Event Type"])
+], remainder='passthrough')
+
+xgb_params = {
+    "use_label_encoder": False,
+    "eval_metric": "mlogloss",
+    "random_state": 42
+}
+if use_class_weights:
+    class_counts = np.bincount(y_encoded)
+    total = sum(class_counts)
+    weights = [total / c if c > 0 else 0 for c in class_counts]
+    xgb_params["scale_pos_weight"] = max(weights)
+
+model = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('classifier', XGBClassifier(**xgb_params))
+])
+
+cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=42)
+scores = cross_val_score(model, X, y_encoded, cv=cv, scoring='accuracy')
+print(f"Cross-Validation Accuracy Scores: {scores}")
+print(f"Mean Accuracy: {scores.mean():.4f}")
+
+sample_weights = df["DecayWeight"]
+X_train, X_test, y_train, y_test, weights_train, weights_test = train_test_split(
+    X, y_encoded, sample_weights, test_size=0.2, stratify=y_encoded, random_state=42
+)
+
+model.fit(X_train, y_train, classifier__sample_weight=weights_train)
+
+y_pred = model.predict(X_test)
+decoded_preds = label_encoder.inverse_transform(y_pred)
+
+print("\nAccuracy:", accuracy_score(y_test, y_pred))
+print("\nClassification Report:\n", classification_report(y_test, y_pred))
+print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
+
+plt.figure(figsize=(6, 5))
+sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt="d",
+            cmap="Blues", xticklabels=label_encoder.classes_,
+            yticklabels=label_encoder.classes_)
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.tight_layout()
+plt.show()
+
+def get_recommendation(label):
+    if label == "Up":
+        return "Add"
+    elif label == "Down":
+        return "Reduce"
+    else:
+        return "Hold"
+
+X_test_display = X_test.copy()
+X_test_display["Predicted Class"] = decoded_preds
+X_test_display["Recommendation"] = X_test_display["Predicted Class"].apply(get_recommendation)
+
+print("\nFinal Prediction Results with Recommendations:")
+print(X_test_display[["DaysSinceEvent", "Predicted Class", "Recommendation"]].head())
+
+joblib.dump(model, "xgb_model_with_decay_balanced.pkl")
+joblib.dump(label_encoder, "label_encoder.pkl")

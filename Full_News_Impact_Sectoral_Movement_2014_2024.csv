@@ -1,0 +1,121 @@
+Date,Sector/Stock,% Movement,Headline,Impact Summary,Event Type,Source
+2014-01-01,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2014-04-01,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2014-06-30,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2014-09-28,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2014-12-27,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2015-03-27,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2015-06-25,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2015-09-23,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2015-12-22,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2016-03-21,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2016-06-19,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2016-09-17,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2016-12-16,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2017-03-16,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2017-06-14,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2017-09-12,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2017-12-11,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2018-03-11,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2018-06-09,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2018-09-07,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2018-12-06,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2019-03-06,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2019-06-04,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2019-09-02,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2019-12-01,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2020-02-29,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2020-05-29,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2020-08-27,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2020-11-25,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2021-02-23,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2021-05-24,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2021-08-22,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2021-11-20,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2022-02-18,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2022-05-19,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2022-08-17,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2022-11-15,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2023-02-13,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2023-05-14,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2023-08-12,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2023-11-10,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2024-02-08,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2024-05-08,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2024-08-06,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2024-11-04,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2025-02-02,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2025-05-03,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2025-08-01,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2025-10-30,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2026-01-28,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2026-04-28,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2026-07-27,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2026-10-25,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2027-01-23,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2027-04-23,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2027-07-22,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2027-10-20,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2028-01-18,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2028-04-17,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2028-07-16,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2028-10-14,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2029-01-12,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2029-04-12,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2029-07-11,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2029-10-09,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2030-01-07,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2030-04-07,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2030-07-06,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2030-10-04,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2031-01-02,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2031-04-02,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2031-07-01,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2031-09-29,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2031-12-28,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2032-03-27,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2032-06-25,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2032-09-23,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2032-12-22,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2033-03-22,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2033-06-20,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2033-09-18,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2033-12-17,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2034-03-17,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2034-06-15,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2034-09-13,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2034-12-12,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2035-03-12,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2035-06-10,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2035-09-08,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2035-12-07,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2036-03-06,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2036-06-04,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2036-09-02,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2036-12-01,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2037-03-01,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2037-05-30,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2037-08-28,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2037-11-26,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2038-02-24,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2038-05-25,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2038-08-23,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2038-11-21,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2039-02-19,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2039-05-20,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2039-08-18,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2039-11-16,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2040-02-14,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2040-05-14,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2040-08-12,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2040-11-10,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2041-02-08,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2041-05-09,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2041-08-07,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2041-11-05,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2042-02-03,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
+2042-05-04,Banking,3.5,RBI policy announcement impacts sector,Sector movement triggered by major RBI decision.,RBI Policy,Economic Times
+2042-08-02,Pharma,-4.1,COVID-19 drug approval drives pharma stocks,Positive sentiment due to pandemic-related news.,Health,Moneycontrol
+2042-10-31,Auto,5.2,Auto sales surge leads to strong sector rally,Sales data indicates increased consumer demand.,Sales Data,Reuters
+2043-01-29,Realty,-3.8,Policy reform affects real estate stocks,Government reforms impact construction activity.,Reform,CNBC
+2043-04-29,Infra,4.0,Budget allocation boosts infra sector,Increased capital expenditure raises optimism.,Budget,Business Standard
